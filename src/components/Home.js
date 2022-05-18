@@ -1,4 +1,7 @@
 import React from "react";
+import { username, city } from "../data/user.js"
+//import JSX syntax
+//the two dots = represent going up one level in the path
 
 function Home() {
   return (
@@ -9,3 +12,5 @@ function Home() {
     </div>
   );
 }
+
+export  default Home; 
